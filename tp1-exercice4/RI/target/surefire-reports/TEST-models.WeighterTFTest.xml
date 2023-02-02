@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="models.WeighterTFTest" time="0.042" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/etud/Bureau/TestLogiciel/tp1-exercice4/RI/target/test-classes:/home/etud/Bureau/TestLogiciel/tp1-exercice4/RI/target/classes:/home/etud/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/home/etud/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:/home/etud/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/etud/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/home/etud/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/home/etud/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/etud/.m2/repository/org/mockito/mockito-core/4.6.1/mockito-core-4.6.1.jar:/home/etud/.m2/repository/net/bytebuddy/byte-buddy/1.12.10/byte-buddy-1.12.10.jar:/home/etud/.m2/repository/net/bytebuddy/byte-buddy-agent/1.12.10/byte-buddy-agent-1.12.10.jar:/home/etud/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/home/etud/.m2/repository/org/mockito/mockito-junit-jupiter/4.6.1/mockito-junit-jupiter-4.6.1.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.boot.library.path" value="/home/etud/Téléchargements/eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.4.v20220903-1038/jre/lib"/>
+    <property name="sun.java.command" value="/home/etud/Bureau/TestLogiciel/tp1-exercice4/RI/target/surefire/surefirebooter12975730423228090996.jar /home/etud/Bureau/TestLogiciel/tp1-exercice4/RI/target/surefire 2023-01-13T12-15-37_534-jvmRun1 surefire1613879130066326955tmp surefire_02922917818638645368tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/etud/Bureau/TestLogiciel/tp1-exercice4/RI/target/test-classes:/home/etud/Bureau/TestLogiciel/tp1-exercice4/RI/target/classes:/home/etud/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/home/etud/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:/home/etud/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/etud/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/home/etud/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/home/etud/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/etud/.m2/repository/org/mockito/mockito-core/4.6.1/mockito-core-4.6.1.jar:/home/etud/.m2/repository/net/bytebuddy/byte-buddy/1.12.10/byte-buddy-1.12.10.jar:/home/etud/.m2/repository/net/bytebuddy/byte-buddy-agent/1.12.10/byte-buddy-agent-1.12.10.jar:/home/etud/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/home/etud/.m2/repository/org/mockito/mockito-junit-jupiter/4.6.1/mockito-junit-jupiter-4.6.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/etud"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-12"/>
+    <property name="java.home" value="/home/etud/Téléchargements/eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.4.v20220903-1038/jre"/>
+    <property name="file.separator" value="/"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="/home/etud/Bureau/TestLogiciel/tp1-exercice4/RI"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/etud/Bureau/TestLogiciel/tp1-exercice4/RI/target/surefire/surefirebooter12975730423228090996.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.4.1+1"/>
+    <property name="user.name" value="etud"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.0.0-0.deb11.2-amd64"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.4.1+1"/>
+    <property name="localRepository" value="/home/etud/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.4.1"/>
+    <property name="user.dir" value="/home/etud/Bureau/TestLogiciel/tp1-exercice4/RI"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.4.1+1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="getDocWeightsForStemTest" classname="models.WeighterTFTest" time="0.037">
+    <failure message="&#10;index.getTfsForStem(&lt;any java.lang.String&gt;);&#10;Wanted 2 times:&#10;-&gt; at models.WeighterTFTest.getDocWeightsForStemTest(WeighterTFTest.java:58)&#10;But was 1 time:&#10;-&gt; at models.WeighterTF.getDocWeightsForStem(WeighterTF.java:29)&#10;" type="org.mockito.exceptions.verification.TooFewActualInvocations"><![CDATA[org.mockito.exceptions.verification.TooFewActualInvocations: 
+
+index.getTfsForStem(<any java.lang.String>);
+Wanted 2 times:
+-> at models.WeighterTFTest.getDocWeightsForStemTest(WeighterTFTest.java:58)
+But was 1 time:
+-> at models.WeighterTF.getDocWeightsForStem(WeighterTF.java:29)
+
+	at models.WeighterTFTest.getDocWeightsForStemTest(WeighterTFTest.java:58)
+]]></failure>
+  </testcase>
+</testsuite>
