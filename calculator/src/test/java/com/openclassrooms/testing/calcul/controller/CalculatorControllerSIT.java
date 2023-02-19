@@ -22,7 +22,6 @@ public class CalculatorControllerSIT {
 	@Inject
 	private MockMvc mockMvc;
 
-	
 	@Test
 	public void givenACalculatorApp_whenRequestToAdd_thenSolutionIsShown() throws Exception {
 		final MvcResult result = mockMvc.perform(
